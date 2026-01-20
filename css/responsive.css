@@ -34,4 +34,12 @@
   .ads {
     display: flex;
   }
+
+  .clearfix::after {
+    clear: none;
+  }
+  .presentation img {
+    float: left;
+    padding-right: 10px;
+  }
 }
