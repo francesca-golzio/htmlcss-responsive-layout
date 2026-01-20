@@ -53,4 +53,7 @@
     font-size: 2.5rem;
   }
 
+  .quick-notes ul {
+    display: flow;    
+  }  
 }
