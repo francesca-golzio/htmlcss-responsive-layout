@@ -1,5 +1,23 @@
 /* Soluzione qui */
 
+/* #region 📱_BONUS_Large_Mobile */
+
+@media screen and (min-width: 576px) {
+
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px */
+
+  .clearfix::after {
+    clear: none;
+  }
+    .presentation img {
+      float: left;
+      margin-right: 15px;
+    }
+
+}
+
+/* #endregion 📱_BONUS_Large_Mobile */
+
 /* #region 🔳_tablet */
 @media screen and (min-width: 769px) {
 
@@ -99,5 +117,3 @@
     }
 }
   /* #endregion 🖥️_desktop */
-
-
