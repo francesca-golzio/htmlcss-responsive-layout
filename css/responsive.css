@@ -30,6 +30,9 @@
       min-width: calc(100%/3 - (15px*2)/3);
     }
 
+  .social-networks button {
+    min-width: calc(100% / 5 - (20px * 4) /5);
+  }
 
   .ads {
     display: flex;
