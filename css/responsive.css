@@ -60,14 +60,14 @@
   .recipe-card {
     display: flex;
   }
-  
+
   .recipe-video {
     flex-grow: 5;
     aspect-ratio: 2 / 1;
     max-width: 70%;
     max-height: min-content;
   }
-  }
+  
 
   .social-networks .label {
 	display: contents;
