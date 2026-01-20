@@ -30,4 +30,8 @@
       min-width: calc(100%/3 - (15px*2)/3);
     }
 
+
+  .ads {
+    display: flex;
+  }
 }
