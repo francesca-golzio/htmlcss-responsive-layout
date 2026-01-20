@@ -67,4 +67,13 @@
   .social-networks .label {
 	display: contents;
 }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  address {
+    text-align: left;
+  }
+  
 }
