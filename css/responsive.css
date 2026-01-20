@@ -1,24 +1,30 @@
 /* Soluzione qui */
 
+/* #region 🔳_tablet */
 @media screen and (min-width: 769px) {
 
+  /* Il logo nell'header si allinea a sinistra */
   #topbar {
     display: flex;
     justify-content: left;
   }
 
+  /* Il padding del contenuto principale della pagina aumenta */
   main {
 	padding: 45px;
   }
   
+  /* Compare il testo "(Dolce Tradizionale)" */
   .recipe-origin {
 	  display: contents;
   }
 
+  /* La grandezza del titolo diventa più grande */
   .recipe-name {
 	  font-size: 2rem;
   }
   
+  /* Le informazioni della ricetta sotto il video si dispongono a griglia */
   .quick-notes ul {
     display: flex;
     flex-wrap: wrap;
@@ -30,55 +36,68 @@
       min-width: calc(100%/3 - (15px*2)/3);
     }
 
+  /* I bottoni social si allargano */
   .social-networks button {
     min-width: calc(100% / 5 - (20px * 4) /5);
   }
 
+  /* compare il banner pubblicitario */
   .ads {
     display: flex;
   }
 
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo */
   .clearfix::after {
     clear: none;
   }
-  .presentation img {
-    float: left;
-    margin-right: 15px;
-  }
+    .presentation img {
+      float: left;
+      margin-right: 15px;
+    }
 }
+/* #endregion 🔳_tablet */
+
+/* #region 🖥️_desktop */
 
 @media screen and (min-width: 993px) {
-
+  
+  /* La grandezza el titolo della ricetta aumenta ancora di più */
   .recipe-name {
     font-size: 2.5rem;
   }
 
+  /* Le informazioni della ricetta tornano a disporsi una sotto l'altra */
   .quick-notes ul {
     display: flow;    
   }  
 
+  /* Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro */
   .recipe-card {
     display: flex;
   }
-
-  .recipe-video {
-    flex-grow: 5;
-    aspect-ratio: 2 / 1;
-    max-width: 70%;
-    max-height: min-content;
-  }
+    /* Fix recipe video size */
+    .recipe-video {
+      flex-grow: 5;
+      aspect-ratio: 2 / 1;
+      max-width: 70%;
+      max-height: min-content;
+    }
   
-
+    /* Compaiono i nomi delle piattaforme social */
   .social-networks .label {
-	display: contents;
-}
+    display: contents;
+  }
 
+  /* Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
   footer {
     display: flex;
     justify-content: space-between;
   }
-  address {
-    text-align: left;
-  }
-
+    /* align address content left */
+    address {
+      text-align: left;
+    }
 }
+  /* #endregion 🖥️_desktop */
+
+
