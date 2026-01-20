@@ -14,4 +14,8 @@
   .recipe-origin {
 	  display: contents;
   }
+  
+  .recipe-name {
+	  font-size: 2rem;
+  }
 }
