@@ -14,8 +14,20 @@
   .recipe-origin {
 	  display: contents;
   }
-  
+
   .recipe-name {
 	  font-size: 2rem;
   }
+  
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;    
+  }  
+    .quick-notes li {
+      flex-basis: calc(769/3);
+      flex-shrink: 0;
+      min-width: calc(100%/3 - (15px*2)/3);
+    }
+
 }
