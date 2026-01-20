@@ -63,5 +63,8 @@
   .recipe-video {
     flex-grow: 5;
   }
-  
+
+  .social-networks .label {
+	display: contents;
+}
 }
