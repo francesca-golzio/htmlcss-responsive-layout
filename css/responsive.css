@@ -1,2 +1,9 @@
 /* Soluzione qui */
 
+@media screen and (min-width: 769px) {
+    
+  #topbar {
+    display: flex;
+    justify-content: left;
+  }
+}
