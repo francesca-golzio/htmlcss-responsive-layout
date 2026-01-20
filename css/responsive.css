@@ -11,4 +11,7 @@
 	padding: 45px;
   }
   
+  .recipe-origin {
+	  display: contents;
+  }
 }
