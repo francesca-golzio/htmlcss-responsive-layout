@@ -46,3 +46,11 @@
     padding-right: 10px;
   }
 }
+
+@media screen and (min-width: 993px) {
+
+  .recipe-name {
+    font-size: 2.5rem;
+  }
+
+}
